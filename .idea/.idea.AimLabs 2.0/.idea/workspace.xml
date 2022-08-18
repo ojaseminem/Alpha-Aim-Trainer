@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5a144885-dbe2-4115-b184-cd98bc2a43b3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskMicroFlexLevelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../--Unity Resources--/Unity Packages/Movement - Tutorial (Unity Project)/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Editor/Slider/SliderRectReferences.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskTileFrenzyLevelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Levels/Targets/TrackingTaskMotionTrackTargetController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskSpiderShot180LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskMotionShotLevelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Levels/PrecisionTaskSpiderShotLevelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Simoqin/Assets/Scripts/MainMenu/PlayerListItem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Levels/PrecisionTaskMicroShotSpeedLevelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Simoqin/Assets/Scripts/Character/Billboard.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/TrackingTaskStrafeBotPlayerMovementController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Simoqin/Assets/Scripts/MainMenu/LobbyListItem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Simoqin/Assets/Scripts/MainMenu/Menu.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Levels/TrackingTaskMotionTrackLevelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskGridShotLevelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Ruptured Horizon Game Test/Assets/Scripts/Script_Parasite.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Levels/LevelsManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Simoqin/Assets/Scripts/Game/PlayerManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CrossHairGenerator/SimpleCrosshair.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/CrossHairHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../--Tool Creation Project--/Assets/Scripts/Gun Scene/Scripts/GunController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Simoqin/Assets/Scripts/Game/ScoreboardManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Ruptured Horizon Game Test/Assets/Scripts/Script_Character.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Simoqin/Assets/Scripts/ScriptableObjects/ItemInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Simoqin/Assets/Scripts/Game/ScoreboardItem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Simoqin/Assets/Scripts/Character/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OJAS/Tools/Billboard/Billboard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../INF 1971/Assets/Scripts/TempPlaneMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../RH - Chemical Training Game/Assets/TUTORIAL PROJECT/Scripts/ScrollSnapRect.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Levels/Targets/PrecisionTaskDetectionTargetController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Levels/Targets/SwitchingTaskDecisionShotTargetController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../INF 1971/Assets/Scripts/PlanesAI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Simoqin/Assets/Scripts/Character/Item.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/MainMenuManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../RH - Chemical Training Game/Assets/TUTORIAL PROJECT/Scripts/Main_Menu/ScriptMenusMechanics.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Levels/Targets/TrackingTaskStrafeBotTargetController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Simoqin/Assets/Scripts/Interfaces/IDamageable.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/TargetBounds.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Target.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MenuCameraController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GunController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelsManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Levels/Level.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/OldScoreManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Old/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Old/MenuManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Old/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Menu/ScrollSnapRect.cs" />
+      <option value="$PROJECT_DIR$/Assets/HealthBar Scene/Scripts/PlayerHealth.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/OJAS/Tools/Billboard/Billboard.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Menu/MenuCameraController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Levels/PrecisionTaskSpiderShotLevelManager1.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Levels/PrecisionTaskSpiderShot180LevelManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Menu/LevelDescriptionBank.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskGridShotLevelManager4.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskGridShotLevelManager3.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskGridShotLevelManager2.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Levels/Targets/SwitchingTaskDecisionShotTargetController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Levels/SwitchingTaskDecisionShotLevelManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Levels/PrecisionTaskMicroShotLevelManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Levels/PrecisionTaskSpiderShotLevelManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskMicroFlexLevelManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskSpiderShot180LevelManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskTileFrenzyLevelManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskMotionShotLevelManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Levels/TrackingTaskMotionTrackLevelManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelsManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/Scene_Levels/NewBehaviourScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Levels/Targets/FlickingTaskMotionShotTargetController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Menu/MainMenuManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Levels/PrecisionTaskMicroShotSpeedLevelManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Levels/Targets/PrecisionTaskDetectionTargetController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Levels/PrecisionTaskDetectionLevelManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Levels/Targets/TrackingTaskMotionTrackTargetController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Levels/Targets/TrackingTaskStrafeBotTargetController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Levels/TrackingTaskStrafeBotLevelManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/GunController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/TrackingTaskStrafeBotPlayerMovementController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskGridShotLevelManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Scripts/Example/SimpleCrosshairAPIExample.cs" />
+      <option value="$PROJECT_DIR$/Assets/Simple Crosshair Generator/Scripts/SimpleCrosshair.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Menu/CrossHairHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CrossHairGenerator/SimpleCrosshair.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="29UTKdb1hBUHmlcvUEio0PxjSDk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
