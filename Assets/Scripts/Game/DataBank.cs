@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 namespace Game
 {
@@ -7,15 +8,13 @@ namespace Game
     {
         #region Crosshair Settings
 
-        public int crosshairSize = 10;
-        public int crosshairThickness = 2;
-        public int crosshairGap = 4;
-
+        public Image Crosshair;
+        
         #endregion
 
         #region Username Settings
 
-        public string username = "Player";
+        public string Username = "Player";
 
         #endregion
     }
