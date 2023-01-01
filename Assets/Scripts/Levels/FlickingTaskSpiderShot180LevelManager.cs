@@ -53,7 +53,7 @@ namespace Levels
         
         private void Start()
         {
-            ChangeState(FlickingTaskSpiderShot180.PreGame);
+            ChangeState(FlickingTaskSpiderShot180.GameBeginning);
             maxTargetCount = 31;
             _taskStarted = false;
         }
@@ -62,15 +62,15 @@ namespace Levels
         {
             switch (flickingTaskGridShot)
             {
-                case FlickingTaskSpiderShot180.PreGame:
+                case FlickingTaskSpiderShot180.GameBeginning:
                     SetVariables();
                     UnlockAimDisableCursor();
                     StartCoroutine(StartTask());
                     break;
-                case FlickingTaskSpiderShot180.Game:
+                case FlickingTaskSpiderShot180.Gameplay:
                     SpawnTargets();
                     break;
-                case FlickingTaskSpiderShot180.PostGame:
+                case FlickingTaskSpiderShot180.GameEnded:
                     playerController.transform.GetComponent<GunController>().gameOver = true;
                     LockAimEnableCursor();
                     CalculateScore();
@@ -121,7 +121,7 @@ namespace Levels
             countdownWindow.SetActive(false);
             scoreCounterWindow.SetActive(true);
             ResetHitsAndMisses();
-            ChangeState(FlickingTaskSpiderShot180.Game);
+            ChangeState(FlickingTaskSpiderShot180.Gameplay);
         }
 
         private void SpawnTargets()
@@ -200,7 +200,7 @@ namespace Levels
             if(_taskStarted) hits++;
             hitsText.text = "Hits : " + hits;
             _currentTargetCount++;
-            if(_currentTargetCount >= maxTargetCount) ChangeState(FlickingTaskSpiderShot180.PostGame);
+            if(_currentTargetCount >= maxTargetCount) ChangeState(FlickingTaskSpiderShot180.GameEnded);
         }
         
         public void IncrementMisses()
@@ -208,7 +208,7 @@ namespace Levels
             if(_taskStarted) misses++;
             missesText.text = "Misses : " + misses;
             _currentTargetCount++;
-            if(_currentTargetCount >= maxTargetCount) ChangeState(FlickingTaskSpiderShot180.PostGame);
+            if(_currentTargetCount >= maxTargetCount) ChangeState(FlickingTaskSpiderShot180.GameEnded);
         } 
         
         private void CalculateScore()
@@ -216,21 +216,25 @@ namespace Levels
             finalScoreCounterWindow.SetActive(true);
             finalScoreText.text = "Score: " + hits;
             
-            /*CalculateAccuracy();
-            
+            CalculateAccuracy();
+
             void CalculateAccuracy()
             {
-                var accuracy = (hits / maxTargetCount) * 100;
-                accuracyPercentageText.text = $"Accuracy: {accuracy} %";
-            }*/
+                // %A = 100 - { (Tv-Ov)  / Tv *100 }
+                float value = (maxTargetCount - hits);
+                value /= maxTargetCount;
+                value *= 100;
+                var finalValue = 100 - value;
+                accuracyPercentageText.text = $"Accuracy : {(int)finalValue} %";
+            }
         }
 
     }
 
     public enum FlickingTaskSpiderShot180
     {
-        PreGame,
-        Game,
-        PostGame
+        GameBeginning,
+        Gameplay,
+        GameEnded
     }
 }

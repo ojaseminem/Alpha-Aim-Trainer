@@ -8,13 +8,13 @@ namespace Game
     {
         #region Crosshair Settings
 
-        public Image Crosshair;
+        public Image crossHair;
         
         #endregion
 
         #region Username Settings
 
-        public string Username = "Player";
+        public string username = "Player";
 
         #endregion
     }

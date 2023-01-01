@@ -1,7 +1,6 @@
-﻿using System;
-using System.Globalization;
+﻿using System.Globalization;
+using Game;
 using Levels;
-using Old;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -13,15 +12,22 @@ namespace Menu
         #region Variables
 
         //SCRIPT REFERENCE
-        [SerializeField] private GameManager gameManager;
         [SerializeField] private LevelsManager levelsManager;
         [SerializeField] private LevelDescriptionBank levelDescriptionBank;
         
         //Input Reference
         [SerializeField] private TMP_InputField usernameInput;
+        private string _username;
         [SerializeField] private Slider mouseSensitivityInput;
         [SerializeField] private TMP_Text mouseSensitivity;
+        private float _currentMouseSens;
         [SerializeField] private Slider masterVolumeSliderInput;
+        
+        //Volume Reference
+        [SerializeField] private Slider masterVolume;
+        [SerializeField] private Slider musicVolume;
+        [SerializeField] private Slider sfxVolume;
+        [SerializeField] private Slider ambientVolume;
         
         //Level Description Reference
         [SerializeField] private TMP_Text levelName;
@@ -35,36 +41,52 @@ namespace Menu
 
         private void Start()
         {
+            SaveLoadManager.LoadGame();
+            GetVariables();
             UpdateVariables();
         }
 
         #region SaveAndUpdateVariables
 
+        private void GetVariables()
+        {
+            _username = SaveLoadManager.CurrentSaveData.username;
+            _currentMouseSens = SaveLoadManager.CurrentSaveData.mouseSens;
+        }
+        
         private void UpdateVariables()
         {
-            if (PlayerPrefs.HasKey("Username")) usernameInput.text = PlayerPrefs.GetString("Username");
-            if (PlayerPrefs.HasKey("MouseSensitivity"))
-            { 
-                mouseSensitivityInput.value = PlayerPrefs.GetFloat("MouseSensitivity"); 
-                mouseSensitivity.text = mouseSensitivityInput.value.ToString(CultureInfo.InvariantCulture); 
-            } 
+            usernameInput.text = _username;
+            mouseSensitivity.text = _currentMouseSens.ToString(CultureInfo.InvariantCulture);
+            mouseSensitivityInput.value = _currentMouseSens;
             if (PlayerPrefs.HasKey("MasterVolume")) masterVolumeSliderInput.value = PlayerPrefs.GetFloat("MasterVolume");
+            SaveLoadManager.SaveGame();
         }
 
         public void Save()
         {
-            UpdateVariables();
+            SaveAllVariables();
+        }
+
+        private void SaveAllVariables()
+        {
+            _username = SaveLoadManager.CurrentSaveData.username;
+            _currentMouseSens = SaveLoadManager.CurrentSaveData.mouseSens;
         }
 
         public void UpdateUsername()
         {
-            PlayerPrefs.SetString("Username", usernameInput.text);
+            _username = usernameInput.text;
+            SaveLoadManager.CurrentSaveData.username = _username;
         }
 
-        public void UpdateSensitivity()
+        public void UpdateSensitivity(bool sliderValue)
         {
-            mouseSensitivity.text = mouseSensitivityInput.value.ToString(CultureInfo.InvariantCulture);
-            PlayerPrefs.SetFloat("MouseSensitivity", mouseSensitivityInput.value);
+            float.TryParse(mouseSensitivity.text, out var localMouseSens);
+            _currentMouseSens = sliderValue ? mouseSensitivityInput.value : localMouseSens;
+            SaveLoadManager.CurrentSaveData.mouseSens = _currentMouseSens;
+            mouseSensitivity.text = _currentMouseSens.ToString(CultureInfo.InvariantCulture);
+            mouseSensitivityInput.value = _currentMouseSens;
         }
 
         public void UpdateMasterVolume()

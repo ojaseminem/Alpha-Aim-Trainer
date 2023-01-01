@@ -140,11 +140,15 @@ namespace Levels
             finalScoreText.text = "Score: " + hits;
             
             CalculateAccuracy();
-            
+
             void CalculateAccuracy()
             {
-                var accuracy = (hits / maxTargetCount) * 100;
-                accuracyPercentageText.text = $"Accuracy: {accuracy} %";
+                // %A = 100 - { (Tv-Ov)  / Tv *100 }
+                float value = (maxTargetCount - hits);
+                value /= maxTargetCount;
+                value *= 100;
+                var finalValue = 100 - value;
+                accuracyPercentageText.text = $"Accuracy : {(int)finalValue} %";
             }
         }
         

@@ -88,20 +88,19 @@ namespace Player
             
             #region TrackingTaskStrafeBotLevel
 
-            Ray ray2 = cam.ViewportPointToRay(new Vector3(.5f, .5f));
-            if (Physics.Raycast(ray2, out RaycastHit hit2))
+            if (SceneManager.GetActiveScene().name == "Scene_TrackingTaskStrafeBot")
             {
-                if(hit2.collider.CompareTag("Target"))
+                var ray2 = cam.ViewportPointToRay(new Vector3(.5f, .5f));
+                if (Physics.Raycast(ray2, out RaycastHit hit2))
                 {
-                    if (SceneManager.GetActiveScene().name == "Scene_TrackingTaskStrafeBot")
+                    if (hit2.collider.CompareTag("Target"))
                     {
                         _trackingTaskStrafeBotTargetController = hit2.collider.GetComponent<TrackingTaskStrafeBotTargetController>();
                         _trackingTaskStrafeBotTargetController.Tracking();
                     }
+                    else { if (_trackingTaskStrafeBotTargetController != null) _trackingTaskStrafeBotTargetController.NotTracking(); }
                 }
-                else { if(_trackingTaskStrafeBotTargetController != null) _trackingTaskStrafeBotTargetController.NotTracking(); }
             }
-
             #endregion
         }
 
