@@ -60,7 +60,6 @@ namespace Menu
             mouseSensitivity.text = _currentMouseSens.ToString(CultureInfo.InvariantCulture);
             mouseSensitivityInput.value = _currentMouseSens;
             if (PlayerPrefs.HasKey("MasterVolume")) masterVolumeSliderInput.value = PlayerPrefs.GetFloat("MasterVolume");
-            SaveLoadManager.SaveGame();
         }
 
         public void Save()
@@ -70,8 +69,9 @@ namespace Menu
 
         private void SaveAllVariables()
         {
-            _username = SaveLoadManager.CurrentSaveData.username;
-            _currentMouseSens = SaveLoadManager.CurrentSaveData.mouseSens;
+            SaveLoadManager.CurrentSaveData.username = _username;
+            SaveLoadManager.CurrentSaveData.mouseSens = _currentMouseSens;
+            SaveLoadManager.SaveGame();
         }
 
         public void UpdateUsername()
@@ -80,13 +80,11 @@ namespace Menu
             SaveLoadManager.CurrentSaveData.username = _username;
         }
 
-        public void UpdateSensitivity(bool sliderValue)
+        public void UpdateSensitivity()
         {
-            float.TryParse(mouseSensitivity.text, out var localMouseSens);
-            _currentMouseSens = sliderValue ? mouseSensitivityInput.value : localMouseSens;
+            _currentMouseSens = mouseSensitivityInput.value;
             SaveLoadManager.CurrentSaveData.mouseSens = _currentMouseSens;
-            mouseSensitivity.text = _currentMouseSens.ToString(CultureInfo.InvariantCulture);
-            mouseSensitivityInput.value = _currentMouseSens;
+            mouseSensitivity.text = _currentMouseSens.ToString();
         }
 
         public void UpdateMasterVolume()
