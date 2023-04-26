@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 
 namespace Player
 {
@@ -13,7 +12,6 @@ namespace Player
         #endregion
         
         [SerializeField] private Transform cameraHolder;
-        [SerializeField] private Transform crossHairPrefab;
 
         private float _verticalLookRotation;
         public float mouseSens;

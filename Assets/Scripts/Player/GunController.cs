@@ -11,17 +11,27 @@ namespace Player
         #region Variables
         
         //SCRIPT REFERENCES
-        public FlickingTaskGridShotLevelManager flickingTaskGridShotLevelManager;
-        public PrecisionTaskMicroShotLevelManager precisionTaskMicroShotLevelManager;
-        public PrecisionTaskSpiderShotLevelManager precisionTaskSpiderShotLevelManager;
-        public FlickingTaskMicroFlexLevelManager flickingTaskMicroFlexLevelManager;
-        public TrackingTaskStrafeBotLevelManager trackingTaskStrafeBotLevelManager;
-        public FlickingTaskSpiderShot180LevelManager flickingTaskSpiderShot180LevelManager;
-        public FlickingTaskTileFrenzyLevelManager flickingTaskTileFrenzyLevelManager;
-        public SwitchingTaskDecisionShotLevelManager switchingTaskDecisionShotLevelManager;
-        public FlickingTaskMotionShotLevelManager flickingTaskMotionShotLevelManager;
-        public PrecisionTaskMicroShotSpeedLevelManager precisionTaskMicroShotSpeedLevelManager;
-
+        
+        [SerializeField] private FlickingTaskGridShotLevelManager flickingTaskGridShotLevelManager;
+        private bool _flickingTaskGridShotLevelScene;
+        [SerializeField] private PrecisionTaskMicroShotLevelManager precisionTaskMicroShotLevelManager;
+        private bool _precisionTaskMicroShotLevelScene;
+        [SerializeField] private PrecisionTaskSpiderShotLevelManager precisionTaskSpiderShotLevelManager;
+        private bool _precisionTaskSpiderShotLevelScene;
+        [SerializeField] private FlickingTaskMicroFlexLevelManager flickingTaskMicroFlexLevelManager;
+        private bool _flickingTaskMicroFlexLevelScene;
+        [SerializeField] private TrackingTaskStrafeBotLevelManager trackingTaskStrafeBotLevelManager;
+        private bool _trackingTaskStrafeBotLevelScene;
+        [SerializeField] private FlickingTaskSpiderShot180LevelManager flickingTaskSpiderShot180LevelManager;
+        private bool _flickingTaskSpiderShot180LevelScene;
+        [SerializeField] private FlickingTaskTileFrenzyLevelManager flickingTaskTileFrenzyLevelManager;
+        private bool _flickingTaskTileFrenzyLevelScene;
+        [SerializeField] private SwitchingTaskDecisionShotLevelManager switchingTaskDecisionShotLevelManager;
+        private bool _switchingTaskDecisionShotLevelScene;
+        [SerializeField] private FlickingTaskMotionShotLevelManager flickingTaskMotionShotLevelManager;
+        private bool _flickingTaskMotionShotLevelScene;
+        [SerializeField] private PrecisionTaskMicroShotSpeedLevelManager precisionTaskMicroShotSpeedLevelManager;
+        private bool _precisionTaskMicroShotSpeedLevelScene;
         //Other References and variables
         public bool gameOver;
         private TrackingTaskMotionTrackTargetController _trackingTaskMotionTrackTargetController;
@@ -44,6 +54,21 @@ namespace Player
             _playerController = GetComponent<PlayerController>();
             _canShoot = true;
             gameOver = false;
+            CheckCurrentScene();
+        }
+
+        private void CheckCurrentScene()
+        {
+            if (flickingTaskGridShotLevelManager != null) _flickingTaskGridShotLevelScene = true;
+            if (precisionTaskMicroShotLevelManager != null) _precisionTaskMicroShotLevelScene = true;
+            if (precisionTaskSpiderShotLevelManager != null) _precisionTaskSpiderShotLevelScene = true;
+            if (flickingTaskMicroFlexLevelManager != null) _flickingTaskMicroFlexLevelScene = true;
+            if (trackingTaskStrafeBotLevelManager != null) _trackingTaskStrafeBotLevelScene = true;
+            if (flickingTaskSpiderShot180LevelManager != null) _flickingTaskSpiderShot180LevelScene = true;
+            if (flickingTaskTileFrenzyLevelManager != null) _flickingTaskTileFrenzyLevelScene = true;
+            if (switchingTaskDecisionShotLevelManager != null) _switchingTaskDecisionShotLevelScene = true;
+            if (flickingTaskMotionShotLevelManager != null) _flickingTaskMotionShotLevelScene = true;
+            if (precisionTaskMicroShotSpeedLevelManager != null) _precisionTaskMicroShotSpeedLevelScene = true;
         }
         
         private void Update()
@@ -114,43 +139,43 @@ namespace Player
 
         private void DetermineHit()
         {
-            Ray ray = cam.ViewportPointToRay(new Vector3(.5f, .5f));
+            var ray = cam.ViewportPointToRay(new Vector3(.5f, .5f));
             if (Physics.Raycast(ray, out RaycastHit hit))
             {
                 if (hit.collider.CompareTag("Target"))
                 {
-                    if (SceneManager.GetActiveScene().name == "Scene_FlickingTaskGridShot")
+                    if (_flickingTaskGridShotLevelScene)
                     {
                         hit.collider.transform.position = flickingTaskGridShotLevelManager.GetRandomPosition();
                         flickingTaskGridShotLevelManager.IncrementHits();
                     }
-                    if (SceneManager.GetActiveScene().name == "Scene_PrecisionTaskMicroShot")
+                    if (_precisionTaskMicroShotLevelScene)
                     {
                         hit.collider.transform.position = precisionTaskMicroShotLevelManager.GetRandomPosition();
                         precisionTaskMicroShotLevelManager.IncrementHits();
                     }
-                    if (SceneManager.GetActiveScene().name == "Scene_PrecisionTaskSpiderShot")
+                    if (_precisionTaskSpiderShotLevelScene)
                     {
                         hit.collider.transform.position = precisionTaskSpiderShotLevelManager.GetRandomPosition();
                         precisionTaskSpiderShotLevelManager.IncrementHits();
                     }
-                    if (SceneManager.GetActiveScene().name == "Scene_FlickingTaskMicroFlex")
+                    if (_flickingTaskMicroFlexLevelScene)
                     {
                         Destroy(hit.transform.gameObject);
                         flickingTaskMicroFlexLevelManager.IncrementHits();
                     }
-                    if (SceneManager.GetActiveScene().name == "Scene_FlickingTaskSpiderShot180")
+                    if (_flickingTaskSpiderShot180LevelScene)
                     {
                         flickingTaskSpiderShot180LevelManager.DecideSpawnBounds();
                         hit.collider.transform.position = flickingTaskSpiderShot180LevelManager.spawnPosition;
                         flickingTaskSpiderShot180LevelManager.IncrementHits();
                     }
-                    if (SceneManager.GetActiveScene().name == "Scene_FlickingTaskTileFrenzy")
+                    if (_flickingTaskTileFrenzyLevelScene)
                     {
                         hit.collider.transform.position = flickingTaskTileFrenzyLevelManager.GetRandomPosition();
                         flickingTaskTileFrenzyLevelManager.IncrementHits();
                     }
-                    if (SceneManager.GetActiveScene().name == "Scene_SwitchingTaskDecisionShot")
+                    if (_switchingTaskDecisionShotLevelScene)
                     {
                         var targetScript = hit.collider.transform.GetComponent<SwitchingTaskDecisionShotTargetController>();
                         switch (targetScript.id)
@@ -167,53 +192,52 @@ namespace Player
                                 break;
                         }
                     }
-                    if (SceneManager.GetActiveScene().name == "Scene_FlickingTaskMotionShot")
+                    if (_flickingTaskMotionShotLevelScene)
                     {
                         hit.collider.transform.GetComponent<FlickingTaskMotionShotTargetController>().InstantChangePosition();
                         flickingTaskMotionShotLevelManager.IncrementHits();
                     }
-                    if (SceneManager.GetActiveScene().name == "Scene_PrecisionTaskMicroShotSpeed")
+                    if (_precisionTaskMicroShotSpeedLevelScene)
                     {
                         hit.collider.transform.position = precisionTaskMicroShotSpeedLevelManager.GetRandomPosition();
                         precisionTaskMicroShotSpeedLevelManager.IncrementHits();
                     }
-                    //Call scene respective functions 
                 }
                 else if (hit.collider.CompareTag("Wall"))
                 {
-                    if (SceneManager.GetActiveScene().name == "Scene_FlickingTaskGridShot")
+                    if (_flickingTaskGridShotLevelScene)
                     {
                         flickingTaskGridShotLevelManager.IncrementMisses();
                     }
-                    if (SceneManager.GetActiveScene().name == "Scene_PrecisionTaskMicroShot")
+                    if (_precisionTaskMicroShotLevelScene)
                     {
                         precisionTaskMicroShotLevelManager.IncrementMisses();
                     }
-                    if (SceneManager.GetActiveScene().name == "Scene_PrecisionTaskSpiderShot")
+                    if (_precisionTaskSpiderShotLevelScene)
                     {
                         precisionTaskSpiderShotLevelManager.IncrementMisses();
                     }
-                    if (SceneManager.GetActiveScene().name == "Scene_FlickingTaskMicroFlex")
+                    if (_flickingTaskMicroFlexLevelScene)
                     {
                         flickingTaskMicroFlexLevelManager.IncrementMisses();
                     }
-                    if (SceneManager.GetActiveScene().name == "Scene_FlickingTaskSpiderShot180")
+                    if (_flickingTaskSpiderShot180LevelScene)
                     {
                         flickingTaskSpiderShot180LevelManager.IncrementMisses();
                     }
-                    if (SceneManager.GetActiveScene().name == "Scene_FlickingTaskTileFrenzy")
+                    if (_flickingTaskTileFrenzyLevelScene)
                     {
                         flickingTaskTileFrenzyLevelManager.IncrementMisses();
                     }
-                    if (SceneManager.GetActiveScene().name == "Scene_SwitchingTaskDecisionShot")
+                    if (_switchingTaskDecisionShotLevelScene)
                     {
                         switchingTaskDecisionShotLevelManager.IncrementMisses();
                     }
-                    if (SceneManager.GetActiveScene().name == "Scene_FlickingTaskMotionShot")
+                    if (_flickingTaskMotionShotLevelScene)
                     {
                         flickingTaskMotionShotLevelManager.IncrementMisses();
                     }
-                    if (SceneManager.GetActiveScene().name == "Scene_PrecisionTaskMicroShotSpeed")
+                    if (_precisionTaskMicroShotSpeedLevelScene)
                     {
                         precisionTaskMicroShotSpeedLevelManager.IncrementMisses();
                     }

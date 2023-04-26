@@ -5,131 +5,128 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b4f0d52-af95-4673-b4cd-ed9fb6b68bd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Data.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Data/DataBank.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Data/DataBank.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene/LightingData.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene/LightingData.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/CrossHairHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/SaveData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/SaveData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/SaveLoadManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/SaveLoadManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_Asset.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_Asset.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_AssetType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_AssetType.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_Cache.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_Cache.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_CacheEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_CacheEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_Duplicate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_Duplicate.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_Export.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_Export.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_Helper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_Helper.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_Ref.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_Ref.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_SceneCache.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_SceneCache.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_SceneWindow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_SceneWindow.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_Selection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_Selection.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_TreeUI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_TreeUI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_TreeUI2.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_TreeUI2.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_Unity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_Unity.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_UsedInBuild.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_UsedInBuild.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_Window.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_Window.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_WindowAll.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_WindowAll.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_WindowBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/Editor/Script/FR2_WindowBase.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/FR2_Readme.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/FindReference2/FR2_Readme.pdf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/Simple Crosshair Generator.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/Simple Crosshair Generator/Documentation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/Simple Crosshair Generator/Documentation/Manual.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/Simple Crosshair Generator/Documentation/Manual.pdf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/Simple Crosshair Generator/Documentation/ScriptingAPI.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/Simple Crosshair Generator/Documentation/ScriptingAPI.pdf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/Simple Crosshair Generator/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/Simple Crosshair Generator/Scripts/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/Simple Crosshair Generator/Scripts/Editor/SimpleCrosshairEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/Simple Crosshair Generator/Scripts/Editor/SimpleCrosshairEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/Simple Crosshair Generator/Scripts/Example.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/Simple Crosshair Generator/Scripts/Example/SimpleCrosshairAPIExample.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/Simple Crosshair Generator/Scripts/Example/SimpleCrosshairAPIExample.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/Simple Crosshair Generator/Scripts/Example/Utility.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/Simple Crosshair Generator/Scripts/Example/Utility/DisableOnPlay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/Simple Crosshair Generator/Scripts/Example/Utility/DisableOnPlay.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/Simple Crosshair Generator/Scripts/SimpleCrosshair.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ThirdPartyAssets/Simple Crosshair Generator/Scripts/SimpleCrosshair.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Data.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Data/DataBank.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Data/DataBank.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Data/LevelDescriptionBank.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Data/LevelDescriptionBank.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Data/SaveData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Data/SaveData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Handlers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Handlers/CrossHairHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Handlers/CrossHairHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Handlers/MainMenuCameraController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Handlers/MainMenuCameraController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/FlickingTaskGridShotLevelManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/FlickingTaskGridShotLevelManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/FlickingTaskMicroFlexLevelManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/FlickingTaskMicroFlexLevelManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/FlickingTaskMotionShotLevelManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/FlickingTaskMotionShotLevelManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/FlickingTaskSpiderShot180LevelManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/FlickingTaskSpiderShot180LevelManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/FlickingTaskTileFrenzyLevelManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/FlickingTaskTileFrenzyLevelManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/LevelsManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/LevelsManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/PrecisionTaskDetectionLevelManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/PrecisionTaskDetectionLevelManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/PrecisionTaskMicroShotLevelManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/PrecisionTaskMicroShotLevelManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/PrecisionTaskMicroShotSpeedLevelManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/PrecisionTaskMicroShotSpeedLevelManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/PrecisionTaskSpiderShotLevelManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/PrecisionTaskSpiderShotLevelManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/SwitchingTaskDecisionShotLevelManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/SwitchingTaskDecisionShotLevelManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/Targets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/Targets/FlickingTaskMotionShotTargetController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/Targets/FlickingTaskMotionShotTargetController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/Targets/PrecisionTaskDetectionTargetController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/Targets/PrecisionTaskDetectionTargetController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/Targets/SwitchingTaskDecisionShotTargetController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/Targets/SwitchingTaskDecisionShotTargetController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/Targets/TrackingTaskMotionTrackTargetController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/Targets/TrackingTaskMotionTrackTargetController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/Targets/TrackingTaskStrafeBotTargetController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/Targets/TrackingTaskStrafeBotTargetController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/TrackingTaskMotionTrackLevelManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/TrackingTaskMotionTrackLevelManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/TrackingTaskStrafeBotLevelManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/Levels/TrackingTaskStrafeBotLevelManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/MainMenuManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/MainMenuManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/SaveLoadManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/SaveLoadManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Misc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Misc/Billboard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Misc/Billboard.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Alpha Aim Trainer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Alpha Aim Trainer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Imported/NavMeshComponents-master/Assets/Examples/Editor/NavMeshComponentsExamplesEditor.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Imported/NavMeshComponents-master/Assets/Examples/Editor/NavMeshComponentsExamplesEditor.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Imported/NavMeshComponents-master/Assets/Examples/NavMeshComponentsExamples.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Imported/NavMeshComponents-master/Assets/Examples/NavMeshComponentsExamples.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Imported/NavMeshComponents-master/Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Imported/NavMeshComponents-master/Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Imported/NavMeshComponents-master/Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Imported/NavMeshComponents-master/Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Imported/NavMeshComponents-master/Assets/Tests/Editor/NavMeshComponentsTestsEditmode.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Imported/NavMeshComponents-master/Assets/Tests/Editor/NavMeshComponentsTestsEditmode.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Imported/NavMeshComponents-master/Assets/Tests/NavMeshComponentsTestsPlaymode.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Imported/NavMeshComponents-master/Assets/Tests/NavMeshComponentsTestsPlaymode.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO/DataBank.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SO/DataBank.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LightingAssets/MainMenuScene/LightingData.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LightingAssets/MainMenuScene/LightingData.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LightingAssets/MainMenuScene/ReflectionProbe-0.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LightingAssets/MainMenuScene/ReflectionProbe-0.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene_Levels/Scene_FlickingTaskTileFrenzy.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene_Levels/Scene_FlickingTaskTileFrenzy.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/CrosshairHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/CrossHairHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/CrosshairHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/DataBank.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/DataBank.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskGridShotLevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskGridShotLevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskMicroFlexLevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskMicroFlexLevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskMotionShotLevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskMotionShotLevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskSpiderShot180LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskSpiderShot180LevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskTileFrenzyLevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskTileFrenzyLevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/PrecisionTaskDetectionLevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/PrecisionTaskDetectionLevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/PrecisionTaskMicroShotLevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/PrecisionTaskMicroShotLevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/PrecisionTaskMicroShotSpeedLevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/PrecisionTaskMicroShotSpeedLevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/PrecisionTaskSpiderShotLevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/PrecisionTaskSpiderShotLevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/SwitchingTaskDecisionShotLevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/SwitchingTaskDecisionShotLevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/TrackingTaskMotionTrackLevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/TrackingTaskMotionTrackLevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/MainMenuCameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/MainMenuCameraController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/MainMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/MainMenuManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OJAS/Tools/MeshCombinerTool.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OJAS/Tools/MeshCombinerTool/MeshCombiner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OJAS/Tools/MeshCombinerTool/MeshCombiner.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Old.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Old/EndingScoreManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Old/EndingScoreManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Old/GameManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Old/GameManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Old/MenuManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Old/MenuManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Old/OldScoreManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Old/OldScoreManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Old/Target.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Old/Target.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Old/TargetBounds.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Old/TargetBounds.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Old/TargetSpawner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Old/TargetSpawner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/DELETE_these are just temporary/targetPlayer.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/DELETE_these are just temporary/targetPlayer.obj.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FR2_Cache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FR2_Cache.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene_Levels/Scene_FlickingTaskGridShot.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene_Levels/Scene_FlickingTaskGridShot.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/CrossHairHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/CrossHairHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/DataBank.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/DataBank.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/SaveData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/SaveData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/SaveLoadManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/SaveLoadManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskGridShotLevelManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskGridShotLevelManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskMicroFlexLevelManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskMicroFlexLevelManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskMotionShotLevelManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskMotionShotLevelManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskSpiderShot180LevelManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskSpiderShot180LevelManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskTileFrenzyLevelManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/FlickingTaskTileFrenzyLevelManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelsManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelsManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/PrecisionTaskDetectionLevelManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/PrecisionTaskDetectionLevelManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/PrecisionTaskMicroShotLevelManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/PrecisionTaskMicroShotLevelManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/PrecisionTaskMicroShotSpeedLevelManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/PrecisionTaskMicroShotSpeedLevelManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/PrecisionTaskSpiderShotLevelManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/PrecisionTaskSpiderShotLevelManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/SwitchingTaskDecisionShotLevelManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/SwitchingTaskDecisionShotLevelManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/Targets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/Targets/FlickingTaskMotionShotTargetController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/Targets/FlickingTaskMotionShotTargetController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/Targets/PrecisionTaskDetectionTargetController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/Targets/PrecisionTaskDetectionTargetController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/Targets/SwitchingTaskDecisionShotTargetController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/Targets/SwitchingTaskDecisionShotTargetController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/Targets/TrackingTaskMotionTrackTargetController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/Targets/TrackingTaskMotionTrackTargetController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/Targets/TrackingTaskStrafeBotTargetController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/Targets/TrackingTaskStrafeBotTargetController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/TrackingTaskMotionTrackLevelManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/TrackingTaskMotionTrackLevelManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/TrackingTaskStrafeBotLevelManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/TrackingTaskStrafeBotLevelManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/LevelDescriptionBank.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/LevelDescriptionBank.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/MainMenuCameraController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/MainMenuCameraController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/MainMenuManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/MainMenuManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OJAS.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OJAS/Tools.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OJAS/Tools/Billboard.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OJAS/Tools/Billboard/Billboard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OJAS/Tools/Billboard/Billboard.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/GunController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/GunController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,8 +135,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/208995a09fe148f5a6f6c571838c154f78aa00/59/9dad5b1c/Editor.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/DataBank.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/SaveData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Freelance - Cyber Thief/Assets/Scripts/Gameplay/Managers/EnumManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Simoqin/Assets/Scripts/ScriptableObjects/GunInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
